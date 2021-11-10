@@ -16,11 +16,9 @@ The bitcoin network will need to support orders of magnitude higher transaction 
 Funds are placed into a two-party, multisignature "channel" Bitcoin address. This channel is represented as an entry on the Bitcoin public ledger. In order to spend funds from the channel, both parties must agree on the new balance. The current balance is stored as the most recent transaction signed by both parties, spending from the channel address. To make a payment, both parties sign a new exit transaction spending from the channel address. All old exit transactions are invalidated by doing so. The Lightning Network does not require cooperation from the counterparty to exit the channel. Both parties have the option to unilaterally close the channel, ending their relationship. Since all parties have multiple multisignature channels with many different users on this network, one can send a payment to any other party across this network. By embedding the payment conditional upon knowledge of a secure cryptographic hash, payments can be made across a network of channels without the need for any party to have unilateral custodial ownership of funds. The Lightning Network enables what was previously not possible with trusted financial systems vulnerable to monopolies—without the need for custodial trust and ownership, participation on the network can be dynamic and open for all. 
 
 
-![The Lightning Network](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bitpanda.com%2Facademy%2Fen%2Flessons%2Fwhat-is-the-purpose-of-the-lightning-network-for-bitcoin&psig=AOvVaw0_wOCGsVZ3BRpkchsyOlF9&ust=1636656173991000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKC77cC5jvQCFQAAAAAdAAAAABAK)
-
 ### References:
-https://dci.mit.edu/lightning-network
-http://zaphq.io/
+-https://dci.mit.edu/lightning-network
+-http://zaphq.io/
 
 
 
